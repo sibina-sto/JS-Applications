@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font {
+  font-family: 'Pacifico', cursive !important;
+}
+
+html {
+  background-image: url("/assets/new.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+h1 {
+  margin: 50px auto;
+  font-size: 50px;
+  color: white;
+}
+
+.calculator { 
+  margin: auto;
+  width: 560px;
+  height: 600px;
+  background-color: #9FCFE8;
+  border-radius: 5px;
+  box-shadow: 0px 0px 100px black;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+}
+
+.result-wrapper input {
+  display: table-cell;
+  width: 95%;
+  height: 100px;
+  margin: 0px 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border: 0;
+  background-color: #F1FBEB;
+  box-shadow: 0px 5px 3px #7CA2B8;
+  font-size: 40px;
+  color: #54576E;
+  direction: rtl;
+  padding: 0px 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 94.5%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.numbers {
+  color: #54576E;
+  width: 121px;
+  height: 100px;
+  box-shadow: 0px 5px 3px #7CA2B8;
+  border: 0;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #EFFD99;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.clear {
+  background-color: #FC9DA8;
+}
+
+button:hover {
+  box-shadow: 0px 10px 20px #6c8b9c;
+  transition: all 350ms ease-out
+}

@@ -1,0 +1,22 @@
+body {
+    width: 980px;
+    background-color: antiquewhite;
+}
+
+.room-card {
+    float: left;
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 32px;
+    padding: 16px 32px;
+    background-color: white;
+}
+
+label {
+    display: block;
+}
+
+.own-room {
+    background-color: #9DB68C;
+}
