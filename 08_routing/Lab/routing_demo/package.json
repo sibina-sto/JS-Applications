@@ -1,0 +1,23 @@
+{
+  "name": "routing_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "start": "http-server -a localhost -p 3000 -P http://localhost:3000? -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "playwright-chromium": "^1.28.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "lit-html": "^2.4.0",
+    "lite-server": "^2.6.1"
+  }
+}
